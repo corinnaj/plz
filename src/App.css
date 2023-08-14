@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: center;
+  margin: auto;
+}
+
+.submit {
+  margin-top: 1rem !important;
+}
+
+.error-text {
+  color: darkred;
+}
+
+.download-button {
+  margin-top: 1rem !important;
+}
+
+.download-option {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 1rem;
+}
+
+.accordion {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .accordion {
+    flex-direction: column;
+    color: red;
+  }
+
+  .notistack-SnackbarContainer {
+    margin-bottom: 4rem;
+  }
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+}
+
+.dropdown {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.countInput {
+  width: 100px;
+  margin-left: 1rem;
+}
+
+.loading {
+  margin-top: 1rem;
+  font-size: large;
+  font-weight: bold;
+}
